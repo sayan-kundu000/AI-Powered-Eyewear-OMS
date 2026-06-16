@@ -1,0 +1,35 @@
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+ENV/
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Python cache and testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+backend/.pytest_cache/
+
+# Databases
+*.db
+backend/eyewear_oms.db
+backend/test.db
+
+# Environments / secrets
+.env
+backend/.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

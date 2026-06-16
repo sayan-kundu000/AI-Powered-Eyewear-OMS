@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Binary files
+*.pkl binary
+*.db binary
+*.sqlite binary
+
+# Skip diffs for lockfiles/packages
+package-lock.json -diff
+requirements.txt -diff

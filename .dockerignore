@@ -1,0 +1,15 @@
+.git
+.gitignore
+.dockerignore
+**/node_modules/
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/dist/
+**/.next/
+**/*.db
+**/*.sqlite3
+.env
+.env.*
