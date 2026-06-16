@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "node deploy.js"
+    "deploy": "node deploy.cjs"
   },
   "dependencies": {
     "react": "^18.3.1",
